@@ -46,6 +46,7 @@ public class MainActivity extends ListActivity {
         ArrayList<String> array = new ArrayList<>();
         array.add(getResources().getString(R.string.first_day));
         array.add(getResources().getString(R.string.second_day));
+        array.add(getResources().getString(R.string.third_day));
         return array;
     }
 

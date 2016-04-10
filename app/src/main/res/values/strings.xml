@@ -6,4 +6,5 @@
     <string name="action_run">Run</string>
     <string name="source_code">code</string>
     <string name="title_activity_demo_run">DemoRunActivity</string>
+    <string name="third_day">ThirdDay</string>
 </resources>

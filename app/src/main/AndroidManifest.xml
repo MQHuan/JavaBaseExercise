@@ -18,6 +18,7 @@
         <activity android:name=".DemoBaseActivity"/>
         <activity android:name=".SourceCodeActivity"/>
         <activity android:name=".demo.FirstDayDemoActivity"/>
+        <activity android:name=".demo.SecondDayDemoActivity"/>
         <activity android:name=".DemoRunActivity"
             android:label="@string/title_activity_demo_run"
             android:launchMode="singleTask"/>

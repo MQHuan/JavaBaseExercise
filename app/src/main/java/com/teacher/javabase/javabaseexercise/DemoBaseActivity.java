@@ -187,6 +187,15 @@ public class DemoBaseActivity extends ListActivity{
         }
     }
 
+    protected void fastLog(Object... objects) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < objects.length; i++) {
+            sb.append(objects[i]);
+            sb.append(" ");
+        }
+        log(sb.toString());
+    }
+
     protected void onListItemClick(android.widget.ListView l, android.view.View v, int position, long id) {
         Intent intent = new Intent(this, DemoRunActivity.class);
         DemoRunActivity.demoActivity = this;
@@ -236,6 +245,15 @@ public class DemoBaseActivity extends ListActivity{
                 }
             }
         }.execute();
+    }
+
+    protected boolean filterException(Exception e) {
+        if (e == null) {
+            return true;
+        } else {
+            log(e.getMessage());
+            return false;
+        }
     }
 
     protected void logThreadTips() {
