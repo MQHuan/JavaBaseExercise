@@ -8,7 +8,7 @@ import com.teacher.javabase.javabaseexercise.DemoBaseActivity;
 /**
  * Created by Administrator on 2016/4/10.
  */
-public class SecondDayDemoActivity extends DemoBaseActivity {
+public class SecondDay_Sort_BaseGrammarDemoActivity extends DemoBaseActivity {
 
   public void testMain() {
     //title:SortArithmetic

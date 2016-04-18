@@ -18,7 +18,7 @@
         <activity android:name=".DemoBaseActivity"/>
         <activity android:name=".SourceCodeActivity"/>
         <activity android:name=".demo.FirstDaySummaryHexadecimalConversionDemoActivity"/>
-        <activity android:name=".demo.SecondDayDemoActivity"/>
+        <activity android:name=".demo.SecondDay_Sort_BaseGrammarDemoActivity"/>
         <activity android:name=".demo.ThirdDayDemoActivity"/>
         <activity android:name=".demo.FourthDayDemoActivity"/>
         <activity android:name=".demo.FifthDayDemoActivity"/>

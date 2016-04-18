@@ -1,12 +1,14 @@
 package com.teacher.javabase.javabaseexercise.demo;
 
 
+import android.util.Log;
+
 import com.teacher.javabase.javabaseexercise.DemoBaseActivity;
 
 /**
  * Created by Administrator on 2016/4/10.
  */
-public class SecondDayDemoActivity extends DemoBaseActivity {
+public class SecondDay_Sort_BaseGrammarDemoActivity extends DemoBaseActivity {
 
   public void testMain() {
     //title:SortArithmetic
@@ -183,6 +185,109 @@ public class SecondDayDemoActivity extends DemoBaseActivity {
 
 	应用：遍历求和。
 */
+  }
+
+  public void testKeyWord(int [] arr)
+  {
+	  /*
+	   *生僻的关键字：
+	    *  native
+	    *  strictfp
+	    *  transient
+	    *  volatile
+	    *  assert
+	    *
+	   */
+  }
+
+
+  public void testNameStandard(int [] arr) {
+	  /*
+包名：多单词组成时所有字母都小写。
+例如：xxxyyyzzz
+
+类名接口名：多单词组成时，所有单词的首字母大写。
+例如：XxxYyyZzz
+
+变量名和函数名：多单词组成时，第一个单词首字母小写，第二个单词开始每个单词首字母大写。
+例如：xxxYyyZzz
+
+常量名：所有字母都大写。 多单词时每个单词用下划线连接。
+例如：XXX_YYY_ZZZ
+
+	    *
+	   */
+  }
+
+  public void testNote(){
+
+//1.单行注释
+//格式：//注释文字
+//
+//2.多行注释
+//格式：/*注释文字*/
+//
+//3.文档注释
+//格式：/**注释文字*/
+//文档注释，是java特有的注释，其中注释内容可以被JDK提供的工具javadoc所解析，生成一
+//套以网页文件形式体现的该程序的说明文档。*/
+  }
+
+  public void testDataType(){
+/*
+byte1个字节
+short2个字节
+int4个字节
+long8个字节
+float4个字节
+double8个字节
+char2个字节
+*****************************
+				   整数类型(byte, short, int, long)
+			数值型 浮点类型(float, double)
+基本数据类型 字符型(char)
+			布尔型(boolean)
+
+			 类(class)
+引用数据类型	 接口(interface)
+			 数值([ ])
+************************
+1、 整数默认类型：int类型，小数默认类型：double类型。
+2、 double类型的小数精度比float类型的小数更高。
+* */
+  }
+
+  public void testInterview(){
+/*
+表达式的数据类型自动提升：
+所有的byte型、 short型和char的值将被提升到int型。
+如果一个操作数是long型，计算结果就是long型；
+如果一个操作数是float型，计算结果就是float型；
+如果一个操作数是double型，计算结果就是double型。*/
+
+/***************question 1**************/
+	  byte b = 3 + 7;
+	  byte b1 = 3;
+	  byte b2 = 7;
+//	  b = b1 + b2; error
+/*
+错误原因：涉及到编译器编译程序时候的细节，之所以byteb=3+7;，没有报错，是因为3和7都是
+常量，编译器知道结果是10，并且在byte范围之内，因此就自动进行了强转，所以不会报错。 而b=b1
++b2;中b1和b2都是变量，编译器编译程序是一行一行编译的，它根本不知道b1和b2到底是多少，两个
+byte类型的数据相加时，首先都会被提升为int类型，他们的和也是int类型，其值可能会超过byte的范
+围，因此就会报错*/
+
+/***************question 2**************/
+	  short s = 3;
+	  s += 4;
+	  fastLog("s = "+s);
+//在执行s+=4;语句时，编译器在编译的时候，默认进行了强制类型转换，也就是将int类型的数
+//据转换成short类型的数据。
+	  short s1 = 3;
+//	  s1 = s1 + 4; error
+//在执行s=s+4;语句时，编译器在编译的时候，默认并没有强制类型转换。 所以，s是short类
+//型，4是int类型，s会自动提升为int类型，相加的和也是int类型，赋值给short类型的变量肯定会损失精
+//度。 这时候就需要进行强制类型转换：s=(short)(s+4);。
   }
 
 }
