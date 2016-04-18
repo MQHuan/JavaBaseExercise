@@ -3,7 +3,7 @@ package com.teacher.javabase.javabaseexercise.demo;
 
 import com.teacher.javabase.javabaseexercise.DemoBaseActivity;
 
-public class FirstDayDemoActivity extends DemoBaseActivity {
+public class FirstDaySummaryHexadecimalConversionDemoActivity extends DemoBaseActivity {
 
 
 
@@ -199,47 +199,37 @@ Action	Mac OSX	Win/Linux
   public void testBasicConcepts() {
 
 	  /*
-	  J2EE(JavaEE): Java 2 Platform Enterprise Edition
-	  J2SE(JavaSE): Java 2 Platform Standard Edition
-	  J2ME(JavaME): Java 2 Platform Micro Edition
+J2EE(JavaEE): Java 2 Platform Enterprise Edition
+J2SE(JavaSE): Java 2 Platform Standard Edition
+J2ME(JavaME): Java 2 Platform Micro Edition
 
-	  JVM : Java Virtual Machine
-	  JRE: Java Runtime Environment
-	  JDK: Java Development Kit
-	  JRE: JVM+类库(Java library)
-	  JDK: JRE+JAVA的开发工具
+JVM : Java Virtual Machine
+JRE: Java Runtime Environment
+JDK: Java Development Kit
+JRE: JVM+类库(Java library)
+JDK: JRE+JAVA的开发工具
 
-	  Windows的DOS命令：
-	  dir: 列出当前目录下文件及文件夹
-	  md : 创建目录
-	  rd : 删除目录
-	  cd : 进入指定目录
-	  cd .. ：退回到上一级目录
-	  cd \：退回到根目录
-	  del : 删除文件
-	  exit : 退出DOS命令行
-	  D: ：切换到D盘
 	   */
   }
 
   public void testWindowsDosCommand() {
 	  /*
-	  Windows的DOS命令：
-	  dir: 列出当前目录下文件及文件夹
-	  md : 创建目录
-	  rd : 删除目录
-	  cd : 进入指定目录
-	  cd .. ：退回到上一级目录
-	  cd \：退回到根目录
-	  del : 删除文件
-	  exit : 退出DOS命令行
-	  D: ：切换到D盘
+Windows的DOS命令：
+dir: 列出当前目录下文件及文件夹
+md : 创建目录
+rd : 删除目录
+cd : 进入指定目录
+cd .. ：退回到上一级目录
+cd \：退回到根目录
+del : 删除文件
+exit : 退出DOS命令行
+D: ：切换到D盘
 	   */
   }
 
   public void testJavaCompileProcess() {
 	  /*
-	  .java文件 ==(javac.exe编译)==》 .class文件 ==(java.exe运行)==》 结果
+.java文件=(javac.exe编译)=》.class文件=(java.exe运行)=》结果
 	    */
   }
 

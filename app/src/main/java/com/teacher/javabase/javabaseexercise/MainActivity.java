@@ -47,6 +47,16 @@ public class MainActivity extends ListActivity {
         array.add(getResources().getString(R.string.first_day));
         array.add(getResources().getString(R.string.second_day));
         array.add(getResources().getString(R.string.third_day));
+        array.add("FourthDay");
+        array.add("FifthDay");
+        array.add("SixthDay");
+        array.add("SeventhDay");
+        array.add("EighthDay");
+        array.add("NinthDay");
+        array.add("TenthDay");
+        array.add("EleventhDay");
+        array.add("TwelfthDay");
+        array.add("ThirteenthDay");
         return array;
     }
 

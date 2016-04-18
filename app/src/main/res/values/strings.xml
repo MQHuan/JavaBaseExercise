@@ -1,7 +1,7 @@
 <resources>
 <string name="app_name">JavaBaseExercise</string>
 <string name="setting">设置</string>
-<string name="first_day">FirstDay</string>
+<string name="first_day">FirstDaySummaryHexadecimalConversion</string>
     <string name="second_day">SecondDay</string>
     <string name="action_run">Run</string>
     <string name="source_code">code</string>

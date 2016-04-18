@@ -17,8 +17,19 @@
         </activity>
         <activity android:name=".DemoBaseActivity"/>
         <activity android:name=".SourceCodeActivity"/>
-        <activity android:name=".demo.FirstDayDemoActivity"/>
+        <activity android:name=".demo.FirstDaySummaryHexadecimalConversionDemoActivity"/>
         <activity android:name=".demo.SecondDayDemoActivity"/>
+        <activity android:name=".demo.ThirdDayDemoActivity"/>
+        <activity android:name=".demo.FourthDayDemoActivity"/>
+        <activity android:name=".demo.FifthDayDemoActivity"/>
+        <activity android:name=".demo.SixthDayDemoActivity"/>
+        <activity android:name=".demo.SeventhDayDemoActivity"/>
+        <activity android:name=".demo.EighthDayDemoActivity"/>
+        <activity android:name=".demo.NinthDayDemoActivity"/>
+        <activity android:name=".demo.TenthDayDemoActivity"/>
+        <activity android:name=".demo.EleventhDayDemoActivity"/>
+        <activity android:name=".demo.TwelfthDayDemoActivity"/>
+        <activity android:name=".demo.ThirteenthDayDemoActivity"/>
         <activity android:name=".DemoRunActivity"
             android:label="@string/title_activity_demo_run"
             android:launchMode="singleTask"/>
