@@ -57,6 +57,20 @@ public class MainActivity extends ListActivity {
         array.add("EleventhDay");
         array.add("TwelfthDay");
         array.add("ThirteenthDay");
+        array.add("FourteenthDay");
+        array.add("FifteenthDay");
+        array.add("SixteenthDay");
+        array.add("SeventeenthDay");
+        array.add("EighteenthDay");
+        array.add("NineteenthDay");
+        array.add("TwentiethDay");
+        array.add("TwentyFirstDay");
+        array.add("TwentySecondDay");
+        array.add("TwentyThirdDay");
+        array.add("TwentyFourthDay");
+        array.add("TwentyFifthDay");
+        array.add("TwentySixthDay");
+
         return array;
     }
 

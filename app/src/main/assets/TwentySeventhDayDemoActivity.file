@@ -1,0 +1,21 @@
+package com.teacher.javabase.javabaseexercise.demo;
+
+
+import com.teacher.javabase.javabaseexercise.DemoBaseActivity;
+
+public class TwentySeventhDayDemoActivity extends DemoBaseActivity {
+
+
+
+  public void testMain() {
+
+  }
+
+  public void testConclusion(){
+    /*
+
+    * */
+  }
+
+
+}

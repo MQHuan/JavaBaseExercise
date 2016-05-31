@@ -30,9 +30,28 @@
         <activity android:name=".demo.EleventhDayDemoActivity"/>
         <activity android:name=".demo.TwelfthDayDemoActivity"/>
         <activity android:name=".demo.ThirteenthDayDemoActivity"/>
+        <activity android:name=".demo.FourteenthDayDemoActivity"/>
+        <activity android:name=".demo.FifteenthDayDemoActivity"/>
+        <activity android:name=".demo.SixteenthDayDemoActivity"/>
+        <activity android:name=".demo.SeventeenthDayDemoActivity"/>
+        <activity android:name=".demo.EighteenthDayDemoActivity"/>
+        <activity android:name=".demo.NineteenthDayDemoActivity"/>
+        <activity android:name=".demo.TwentiethDayDemoActivity"/>
+        <activity android:name=".demo.TwentyFirstDayDemoActivity"/>
+        <activity android:name=".demo.TwentySecondDayDemoActivity"/>
+        <activity android:name=".demo.TwentyThirdDayDemoActivity"/>
+        <activity android:name=".demo.TwentyFourthDayDemoActivity"/>
+        <activity android:name=".demo.TwentyFifthDayDemoActivity"/>
+        <activity android:name=".demo.TwentySixthDayDemoActivity"/>
+
+
         <activity android:name=".DemoRunActivity"
             android:label="@string/title_activity_demo_run"
-            android:launchMode="singleTask"/>
+            android:launchMode="singleTask"/><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

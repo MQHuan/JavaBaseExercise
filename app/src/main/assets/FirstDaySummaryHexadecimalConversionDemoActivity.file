@@ -93,6 +93,35 @@ public class FirstDaySummaryHexadecimalConversionDemoActivity extends DemoBaseAc
       a = a ^ b;
       b = a ^ b;
       a = a ^ b;
+
+
+  强制转换的原理;
+
+比如int强转为byte,
+就是在int的二进制表示式上截取最右变的八位(即byte的长度)
+
+
+二进制中负数的大小等于它的反码的补码的大小
+(即"取反加一"即可得到大小)
+
+数据结构中的栈是一种抽象概念,是一种理论
+内存中的栈是具体的实现,是操作系统中的一种存储数据的方法
+无论哪种栈,都遵循后进先出的概念
+
+
+byte相关面试题:
+
+byte b1 = 1;
+byte b2 = 2;
+byte b3 = b1 + b2;
+byte b4 = 1 + 2;
+
+b3报错,因为在编译时b1 + b2运算首先进行了类型的提升,
+byte提升为int型再进行运算,当把int赋值给byte时,会有损失精度的风险,
+所以编译报错.
+而右边是常量相加时,编译器先计算结果,看该值是否是左边能表示的范围,
+如果是,就不报错
+
 */
   }
 
